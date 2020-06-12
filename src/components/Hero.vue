@@ -1,5 +1,6 @@
 <template>
   <section id="hero">
+    <div id="socials"></div>
     <div id="hero-left">
       <div>
         <h1>
@@ -45,10 +46,70 @@ export default class Hero extends Vue {}
   }
 }
 
-#hey {
-  font-size: 80px;
+#hero-left {
+  padding: 0 1rem;
 }
-#max {
-  font-size: 144px;
+
+h1 {
+  line-height: 90px;
+  #hey {
+    font-size: 80px;
+  }
+  #max {
+    font-size: 144px;
+  }
+}
+h2 {
+  font-size: 36px;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1300px) {
+  h1 {
+    line-height: 70px;
+    #hey {
+      font-size: 50px;
+    }
+    #max {
+      font-size: 110px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    line-height: 60px;
+    #hey {
+      font-size: 40px;
+    }
+    #max {
+      font-size: 90px;
+    }
+  }
+}
+
+@media (max-width: 730px) {
+  #hero {
+    flex-direction: column-reverse;
+    align-items: end;
+    #hero-left,
+    #hero-right {
+      width: 100%;
+    }
+  }
+  #hero-left {
+    padding: 0;
+  }
+
+  #hero-left {
+    height: 50% !important;
+  }
+  #hero-right {
+    height: 40% !important;
+  }
+
+  #socials {
+    height: 10%;
+  }
 }
 </style>
