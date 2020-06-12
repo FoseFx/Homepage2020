@@ -9,15 +9,15 @@ function getPlugins() {
     : [
         new PrerenderSPAPlugin({
           staticDir: path.join(__dirname, "dist"),
-          routes: ["/"],
-        }),
+          routes: ["/"]
+        })
       ];
 }
 
 const obj = {
   configureWebpack: {
-    plugins: getPlugins(),
-  },
+    plugins: getPlugins()
+  }
 };
 
 module.exports = obj;
