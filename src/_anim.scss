@@ -1,0 +1,34 @@
+.fresh-anim {
+  position: relative;
+  animation: 1s ease-in freshanim;
+
+  &::before {
+    z-index: 9;
+    animation: 1s ease-in freshbeforeanim;
+    content: "";
+    top: 0;
+    position: absolute;
+    width: 100%;
+    background: #f8f8f8;
+  }
+}
+
+@keyframes freshanim {
+  0%,
+  50% {
+    opacity: 0;
+  }
+  51% {
+    opacity: 1;
+  }
+}
+
+@keyframes freshbeforeanim {
+  0%,
+  50% {
+    height: 76%;
+  }
+  100% {
+    height: 0;
+  }
+}

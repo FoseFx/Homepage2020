@@ -54,10 +54,10 @@ export default class Hand extends Vue {}
 </script>
 
 <style lang="scss" scoped>
-#hand {
+svg {
   width: 25vw;
 
-  @media (max-width: 730px) {
+  @media (max-width: 760px) {
     width: 50vw;
   }
 }

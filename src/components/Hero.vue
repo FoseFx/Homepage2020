@@ -5,7 +5,7 @@
       <div>
         <h1>
           <span id="hey">Hey!</span><br />
-          <span id="max">I'm Max</span>
+          <span id="max" class="fresh-anim">I'm Max</span>
         </h1>
         <h2>Web Developer</h2>
         <Button>Read more</Button>
@@ -46,22 +46,63 @@ export default class Hero extends Vue {}
   }
 }
 
-#hero-left {
+#hero-left > div {
   padding: 0 1rem;
+  position: relative;
 }
 
 h1 {
   line-height: 90px;
+  animation: 1s ease-in h1anim;
   #hey {
+    position: relative;
     font-size: 80px;
+    animation: 1s ease-in heyanim;
+    z-index: 10;
   }
   #max {
     font-size: 144px;
   }
 }
+
 h2 {
   font-size: 36px;
   margin-bottom: 1rem;
+  animation: 1s ease-in subheroanim;
+}
+
+button {
+  animation: 1s ease-in subheroanim;
+}
+
+@keyframes h1anim {
+  0%,
+  50% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes heyanim {
+  0%,
+  50% {
+    font-size: 144px;
+  }
+  100% {
+    font-size: 80px;
+  }
+}
+
+@keyframes subheroanim {
+  0%,
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media (max-width: 1300px) {
@@ -72,6 +113,16 @@ h2 {
     }
     #max {
       font-size: 110px;
+    }
+  }
+
+  @keyframes heyanim {
+    0%,
+    50% {
+      font-size: 110px;
+    }
+    100% {
+      font-size: 50px;
     }
   }
 }
@@ -86,9 +137,19 @@ h2 {
       font-size: 90px;
     }
   }
+
+  @keyframes heyanim {
+    0%,
+    50% {
+      font-size: 90px;
+    }
+    100% {
+      font-size: 40px;
+    }
+  }
 }
 
-@media (max-width: 730px) {
+@media (max-width: 760px) {
   #hero {
     flex-direction: column-reverse;
     align-items: end;

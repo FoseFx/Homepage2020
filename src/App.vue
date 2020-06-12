@@ -17,6 +17,7 @@ export default class App extends Vue {}
 </script>
 
 <style lang="scss">
+@import "./_anim.scss";
 /* roboto-regular - latin */
 @font-face {
   font-family: "Roboto";
