@@ -53,6 +53,11 @@ export default class Hero extends Vue {}
   position: relative;
 }
 
+h1,
+h2 {
+  font-weight: 400;
+}
+
 h1 {
   line-height: 90px;
   animation: 1s ease-in h1anim;

@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <Hero />
+    <About />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import Hero from "./components/Hero.vue";
+import About from "./components/About.vue";
 
 @Component({
   components: {
-    Hero
-  }
+    Hero,
+    About,
+  },
 })
 export default class App extends Vue {}
 </script>
@@ -80,12 +83,17 @@ body {
   padding: 0;
   margin: 0;
   background: #f8f8f8;
+  font-family: "Roboto", sans-serif;
 }
 
 h1,
 h2 {
   font-family: "Roboto Slab", serif;
-  font-weight: 400;
   margin: 0;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 800;
 }
 </style>
