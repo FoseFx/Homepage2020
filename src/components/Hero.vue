@@ -8,7 +8,7 @@
           <span id="max" class="fresh-anim">I'm Max</span>
         </h1>
         <h2>Web Developer</h2>
-        <Button>Read more</Button>
+        <Button @click="goToAbout()">Read more</Button>
       </div>
     </div>
     <div id="hero-right">
@@ -27,10 +27,14 @@ import Social from "./Social.vue";
   components: {
     Button,
     Hand,
-    Social,
-  },
+    Social
+  }
 })
-export default class Hero extends Vue {}
+export default class Hero extends Vue {
+  goToAbout() {
+    document.location.hash = "about";
+  }
+}
 </script>
 
 <style lang="scss" scoped>

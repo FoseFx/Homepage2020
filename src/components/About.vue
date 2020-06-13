@@ -47,6 +47,7 @@ export default class About extends Vue {}
   width: 70%;
   border-top: 0.5rem solid black;
   border-bottom: 0.5rem solid black;
+  padding-top: 1rem;
   padding-bottom: 1rem;
 
   p {

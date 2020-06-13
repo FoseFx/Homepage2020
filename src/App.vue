@@ -16,8 +16,8 @@ import NameBg from "./components/NameBg.vue";
   components: {
     Hero,
     About,
-    NameBg,
-  },
+    NameBg
+  }
 })
 export default class App extends Vue {}
 </script>
@@ -82,6 +82,9 @@ export default class App extends Vue {}
       format("svg"); /* Legacy iOS */
 }
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   padding: 0;
   margin: 0;
