@@ -3,6 +3,7 @@
     <Hero />
     <About />
     <NameBg />
+    <Projects />
   </div>
 </template>
 
@@ -11,12 +12,14 @@ import { Component, Vue } from "vue-property-decorator";
 import Hero from "./components/Hero.vue";
 import About from "./components/About.vue";
 import NameBg from "./components/NameBg.vue";
+import Projects from "./components/Projects.vue";
 
 @Component({
   components: {
     Hero,
     About,
-    NameBg
+    NameBg,
+    Projects
   }
 })
 export default class App extends Vue {}
