@@ -2,6 +2,13 @@
   position: relative;
   animation: 1s ease-in freshanim;
 
+  &.fast {
+    animation: 0.5s ease-in-out freshanimfast;
+    &::before {
+      animation: 0.5s ease-in-out freshbeforeanimfast;
+    }
+  }
+
   &::before {
     z-index: 9;
     animation: 1s ease-in freshbeforeanim;
@@ -23,9 +30,27 @@
   }
 }
 
+@keyframes freshanimfast {
+  0% {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+}
+
 @keyframes freshbeforeanim {
   0%,
   50% {
+    height: 76%;
+  }
+  100% {
+    height: 0;
+  }
+}
+
+@keyframes freshbeforeanimfast {
+  0% {
     height: 76%;
   }
   100% {

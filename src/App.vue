@@ -110,4 +110,8 @@ h1 {
     font-size: 50px;
   }
 }
+
+a {
+  color: initial;
+}
 </style>
