@@ -57,4 +57,25 @@ export default class About extends Vue {}
 img {
   transform: scale(0.8);
 }
+
+@media (max-width: 1000px) {
+  #about-sec {
+    flex-direction: column;
+    & > * {
+      width: 100%;
+    }
+  }
+  #about {
+    border: none;
+
+    width: 90% !important;
+    max-width: 40rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+  img {
+    transform: scale(1);
+    width: 60% !important;
+  }
+}
 </style>

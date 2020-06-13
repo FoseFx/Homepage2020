@@ -98,5 +98,13 @@ h2 {
 h1 {
   font-size: 80px;
   font-weight: 800;
+
+  @media (max-width: 1500px) {
+    font-size: 65px;
+  }
+
+  @media (max-width: 1000px) {
+    font-size: 50px;
+  }
 }
 </style>
