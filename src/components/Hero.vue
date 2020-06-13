@@ -1,6 +1,6 @@
 <template>
   <section id="hero">
-    <div id="socials"></div>
+    <Social />
     <div id="hero-left">
       <div>
         <h1>
@@ -21,12 +21,14 @@
 import { Component, Vue } from "vue-property-decorator";
 import Button from "./Button.vue";
 import Hand from "./Hand.vue";
+import Social from "./Social.vue";
 
 @Component({
   components: {
     Button,
-    Hand
-  }
+    Hand,
+    Social,
+  },
 })
 export default class Hero extends Vue {}
 </script>
@@ -152,7 +154,7 @@ button {
 @media (max-width: 760px) {
   #hero {
     flex-direction: column-reverse;
-    align-items: end;
+    align-items: center;
     #hero-left,
     #hero-right {
       width: 100%;
@@ -167,10 +169,6 @@ button {
   }
   #hero-right {
     height: 40% !important;
-  }
-
-  #socials {
-    height: 10%;
   }
 }
 </style>
