@@ -31,6 +31,9 @@ export default class About extends Vue {}
 
 <style lang="scss" scoped>
 #about-sec {
+  padding-top: 2rem;
+  position: relative;
+  z-index: 2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,6 +48,10 @@ export default class About extends Vue {}
   border-top: 0.5rem solid black;
   border-bottom: 0.5rem solid black;
   padding-bottom: 1rem;
+
+  p {
+    font-size: 1.2rem;
+  }
 }
 
 img {

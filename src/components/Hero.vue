@@ -51,6 +51,7 @@ export default class Hero extends Vue {}
 #hero-left > div {
   padding: 0 1rem;
   position: relative;
+  z-index: 2;
 }
 
 h1,
