@@ -3,17 +3,15 @@
     <h1>Featured<br />Projects</h1>
 
     <div id="projects-wrapper">
-      <Card>
-        <h2>posted.gg</h2>
-        <img src="https://via.placeholder.com/500x200" />
+      <Card id="posted">
+        <h2>Posted</h2>
+        <img src="posted.jpg" alt="screenshot of posted" />
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos nihil
-          nulla harum quas quis. Maiores non harum est eaque mollitia minus
-          voluptates maxime esse commodi, odit reiciendis tempora. Sequi, porro.
+          Can't tell you much right now. c;
         </p>
       </Card>
 
-      <Card>
+      <Card id="ecl">
         <h2>ECL 2.0 Addon</h2>
         <img src="ecl.jpg" alt="screenshot of the addon's user interface" />
         <p>
@@ -39,7 +37,7 @@
 
       <div class="breaker"></div>
 
-      <Card>
+      <Card id="bgw">
         <h2>BetterGymWue</h2>
         <img src="bgw.jpg" alt="A screenshot of BGW's interface" />
         <p>
@@ -75,7 +73,7 @@
         </p>
       </Card>
 
-      <Card>
+      <Card id="ugw">
         <h2>UltimateGymWue</h2>
         <img src="ugw-o.jpg" alt="A screenshot of UGW's interface" />
         <p>
@@ -103,7 +101,7 @@
 
       <div class="breaker"></div>
 
-      <Card>
+      <Card id="mlms">
         <h2>The ML-MS Project</h2>
         <p>
           Imagine an application that is able to tell Glowsticks, Books and
@@ -121,7 +119,7 @@
         </p>
       </Card>
 
-      <Card>
+      <Card id="gh">
         <h2>More on Github</h2>
         <p>
           These are just some of the projects I have worked on. On my
@@ -159,7 +157,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: baseline;
+  align-items: flex-start;
 
   .card::nth-child(2) {
     margin-right: 0;
@@ -173,5 +171,19 @@ h1 {
 
 .breaker {
   width: 100%;
+}
+
+@media (min-width: 100px) {
+  #bgw {
+    transform: translateY(-9rem);
+  }
+
+  #mlms {
+    transform: translateY(-9rem);
+  }
+
+  #gh {
+    transform: translateY(-7rem);
+  }
 }
 </style>
