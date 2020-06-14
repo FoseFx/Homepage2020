@@ -173,7 +173,7 @@ h1 {
   width: 100%;
 }
 
-@media (min-width: 100px) {
+@media (min-width: 1231px) {
   #bgw {
     transform: translateY(-9rem);
   }
