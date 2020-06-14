@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div>
+    <div id="legal">
       <h3>© Max Baumann</h3>
       <p>
         Thank you Twitter and contributors for the
@@ -95,5 +95,11 @@ h3 {
   padding: 0;
   margin: 0;
   font-size: 1.5rem;
+}
+
+@media (min-width: 1000px) {
+  #legal p {
+    padding-left: 2rem;
+  }
 }
 </style>
