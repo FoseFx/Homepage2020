@@ -145,6 +145,8 @@ export default class Projects extends Vue {}
 
 <style lang="scss" scoped>
 #projects {
+  position: relative;
+  z-index: 3;
   padding-top: 5rem;
 }
 h1 {
@@ -159,13 +161,15 @@ h1 {
   justify-content: center;
   align-items: flex-start;
 
-  .card::nth-child(2) {
-    margin-right: 0;
-    margin-left: 1rem;
-  }
-  .card {
-    margin-left: 0;
-    margin-right: 1rem;
+  @media (min-width: 1231px) {
+    .card::nth-child(2) {
+      margin-right: 0;
+      margin-left: 1rem;
+    }
+    .card {
+      margin-left: 0;
+      margin-right: 1rem;
+    }
   }
 }
 
