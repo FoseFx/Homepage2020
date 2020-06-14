@@ -27,8 +27,8 @@ import Social from "./Social.vue";
   components: {
     Button,
     Hand,
-    Social,
-  },
+    Social
+  }
 })
 export default class Hero extends Vue {
   goToAbout() {
