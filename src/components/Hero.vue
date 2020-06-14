@@ -27,8 +27,8 @@ import Social from "./Social.vue";
   components: {
     Button,
     Hand,
-    Social
-  }
+    Social,
+  },
 })
 export default class Hero extends Vue {
   goToAbout() {
@@ -165,6 +165,8 @@ button {
   #hero {
     flex-direction: column-reverse;
     align-items: center;
+    justify-content: flex-end;
+
     #hero-left,
     #hero-right {
       width: 100%;
@@ -175,7 +177,7 @@ button {
   }
 
   #hero-left {
-    height: 50% !important;
+    height: 70% !important;
   }
   #hero-right {
     height: 40% !important;

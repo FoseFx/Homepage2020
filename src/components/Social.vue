@@ -207,13 +207,17 @@ a {
 
 #socials {
   width: 80%;
+  height: 5%;
   display: flex;
   justify-content: center;
+  position: static;
   padding-bottom: 0.5rem;
 }
 
 @media (min-width: 500px) {
   #socials {
+    height: initial;
+    width: 80%;
     padding-bottom: 0;
     position: absolute;
     max-width: 20rem;
