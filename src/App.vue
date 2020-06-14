@@ -4,6 +4,7 @@
     <About />
     <NameBg />
     <Projects />
+    <Footer />
   </div>
 </template>
 
@@ -13,13 +14,15 @@ import Hero from "./components/Hero.vue";
 import About from "./components/About.vue";
 import NameBg from "./components/NameBg.vue";
 import Projects from "./components/Projects.vue";
+import Footer from "./components/Footer.vue";
 
 @Component({
   components: {
     Hero,
     About,
     NameBg,
-    Projects
+    Projects,
+    Footer
   }
 })
 export default class App extends Vue {}
