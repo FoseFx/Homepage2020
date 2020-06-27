@@ -1,6 +1,6 @@
 <template>
   <div id="socials">
-    <a href="https://www.twitter.com/fosefx" target="__blank">
+    <a href="https://www.twitter.com/fosefx" target="__blank" rel="noopener">
       <svg
         role="figure"
         aria-label="Twitter logo"
@@ -20,7 +20,7 @@
       </svg>
     </a>
 
-    <a href="https://www.github.com/fosefx" target="__blank">
+    <a href="https://www.github.com/fosefx" target="__blank" rel="noopener">
       <svg
         role="figure"
         aria-label="Github logo"
@@ -58,6 +58,7 @@
     <a
       href="https://www.gitlab.com/fosefx"
       target="__blank"
+      rel="noopener"
       style="transform-origin: 50% 50%; transform: scale(1.3)"
     >
       <svg
@@ -114,6 +115,7 @@
     <a
       href="https://www.linkedin.com/in/max-b-253824187/"
       target="__blank"
+      rel="noopener"
       style="transform: scale(0.9);"
     >
       <svg
