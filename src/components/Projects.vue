@@ -19,16 +19,21 @@
           Their games are hosted and managed by Faceit. In order to report
           misbehaving players ECL made their own report tool. Unfortunately it
           had bad UX as a lot of information must be copied over, like a link to
-          the match room, the link to the reported player and so on. So I wrote
-          an extension which fixed some of those problems. Check it out on
-          <a href="https://github.com/FoseFx/ECL-Report-Addon" target="__blank"
-            >Github</a
-          >. It's frondend part was written in Vue.js. Later the folks over at
-          ECL approched me and asked to develop their official ECL addon. The
-          extension ports lots of features they have on their website into
-          Faceit. I wrote it in TypeScript and used Webpack as a bundler (by the
-          way it is so incredible hard to E2E-test addons). It was also the
-          first project I worked on with a small team. Check it out on their
+          the match room, the link to the reported player and so on. So
+          <b>I wrote an extension which fixed some of those problems</b
+          >.<br /><br />
+          Check it out on my
+          <a href="https://github.com/FoseFx/ECL-Report-Addon" target="__blank">
+            Github</a
+          >.<br /><br />
+          It's frontend part was written in <b>Vue.js</b>. <b>Later</b> the
+          folks over at ECL approched me and
+          <b>asked to develop their official ECL addon</b>. The extension ports
+          lots of features they have on their website into Faceit. I wrote it in
+          <b>TypeScript</b> and used <b>Webpack</b> as a bundler
+          <i>(by the way it is so incredible hard to E2E-test addons)</i>. It
+          was also the first project I worked on with a small team.<br /><br />
+          Check it out on their
           <a href="https://gitlab.com/ecl1/chrome-extension/" target="__blank"
             >Gitlab</a
           >.
@@ -45,26 +50,32 @@
           substitution plans. So in the beginning of 2017 I started working on a
           project that would enhance the way students could check those plans. I
           started with a prototype written with jQuery and then moved on to
-          implement BGW in Angular. I think this was actually my first big
-          Angular project. The idea was to have a minimal backend that just
-          acted as a proxy in order to bypass CORS policies so the frontend
-          could do all the work. I added a caching layer later on. The pwa would
-          download the timetable once and scape the received HTML-table in order
-          to create a JSON representation. With this information I could then
-          determine which classes are available. In an initial setup step the
-          user can then choose their classes in an intuitive way. The main
-          feature of BGW is the personalized timetable for the day. BGW would
-          also crawl the currently available substitution plans and after
-          scraping it merges the information into the timetable represented with
-          colors. Unfortunately (or fortunately, ... depends) my school switched
-          to a different system (which also has it's flaws). In total my PWA
-          managed to gain about 100 daily users (~10% of the school). I had
-          plans to migrate parts of it to the backend and let users use it with
-          their Voice Assistants using Dialogflow. Due to the lack of interest I
-          removed that branch half way there. Check it out on
+          implement BGW in <b>Angular</b>. I think this was actually my
+          <b>first big Angular project</b>. The idea was to have a minimal
+          backend that just acted as a proxy in order to bypass CORS policies so
+          the <b>frontend could do all the work</b>. I added a caching layer
+          later on. The <b>PWA</b> would <b>download</b> the timetable once and
+          <b>scape</b>
+          the received HTML-table in order to create a JSON representation. With
+          this information I could
+          <b>then determine which classes are available</b>. In an initial setup
+          step the user can then choose their classes in an
+          <b>intuitive way</b>. The main feature of BGW is the
+          <b>personalized timetable</b> for the day. BGW would also
+          <b>crawl</b> the currently available substitution plans and after
+          scraping it <b>merges the information</b> into the timetable
+          represented with colors. Unfortunately (or fortunately, ... depends)
+          my school switched to a different system (which also has it's flaws).
+          In total my PWA managed to gain about
+          <b>100 daily users (about 10% of the school)</b>. I had plans to
+          migrate parts of it to the backend and let users use it with their
+          <b>Voice Assistants using Dialogflow</b>. Due to the lack of interest
+          I removed that branch half way there.<br /><br />
+          Check it out on
           <a href="https://github.com/FoseFx/BetterGymWue" target="__blank">
             Github</a
-          >. Here is a
+          >.<br />
+          Here is a
           <a
             href="https://fosefx.github.io/Project-Demos/BGW/index.html"
             target="__blank"
@@ -124,7 +135,7 @@
         <p>
           These are just some of the projects I have worked on. On my
           <a href="https://github.com/FoseFx" target="__blank">Github page</a>
-          you will find more.
+          you will find more as well as my contibutions to Open Source projects.
         </p>
       </Card>
     </div>

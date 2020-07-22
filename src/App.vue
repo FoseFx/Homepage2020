@@ -4,6 +4,7 @@
     <About />
     <NameBg />
     <Projects />
+    <Social :absolute="false" />
     <Footer />
   </div>
 </template>
@@ -15,6 +16,7 @@ import About from "./components/About.vue";
 import NameBg from "./components/NameBg.vue";
 import Projects from "./components/Projects.vue";
 import Footer from "./components/Footer.vue";
+import Social from "./components/Social.vue";
 
 @Component({
   components: {
@@ -22,7 +24,8 @@ import Footer from "./components/Footer.vue";
     About,
     NameBg,
     Projects,
-    Footer
+    Footer,
+    Social
   }
 })
 export default class App extends Vue {}

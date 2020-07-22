@@ -1,5 +1,5 @@
 <template>
-  <div id="socials">
+  <div id="socials" :class="{ absolute: absolute }">
     <a href="https://www.twitter.com/fosefx" target="__blank" rel="noopener">
       <svg
         role="figure"
@@ -183,10 +183,12 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { Component, Vue, Prop } from "vue-property-decorator";
 
 @Component
-export default class Social extends Vue {}
+export default class Social extends Vue {
+  @Prop({ type: Boolean, default: true }) private absolute!: boolean;
+}
 </script>
 
 <style lang="scss" scoped>
@@ -214,18 +216,31 @@ a {
   justify-content: center;
   position: static;
   padding-bottom: 0.5rem;
+  margin: 0 auto;
+  @media (min-width: 1231px) {
+    &:not(.absolute) {
+      transform: translateY(-5rem);
+    }
+  }
+  @media (max-width: 1231px) {
+    &:not(.absolute) {
+      padding-bottom: 1.5rem;
+      padding-top: 1.5rem;
+    }
+  }
 }
 
 @media (min-width: 500px) {
   #socials {
-    height: initial;
     width: 80%;
     padding-bottom: 0;
-    position: absolute;
     max-width: 20rem;
-    bottom: 0.2rem;
-    left: calc(50vw - 10rem);
     height: 3rem;
+    &.absolute {
+      position: absolute;
+      bottom: 0.2rem;
+      left: calc(50vw - 10rem);
+    }
   }
 }
 </style>
