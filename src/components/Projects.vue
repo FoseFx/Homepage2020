@@ -164,6 +164,12 @@ h1 {
   line-height: 5rem;
   text-align: center;
   margin-bottom: 2rem;
+  @media (max-width: 1500px) {
+    line-height: 4rem;
+  }
+  @media (max-width: 1000px) {
+    line-height: 3rem;
+  }
 }
 
 #projects-wrapper {
