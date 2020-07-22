@@ -37,6 +37,7 @@ export default class App extends Vue {}
 @font-face {
   font-family: "Roboto";
   font-style: normal;
+  font-display: swap;
   font-weight: 400;
   src: url("./assets/fonts/roboto-v20-latin-regular.eot"); /* IE9 Compat Modes */
   src: local("Roboto"), local("Roboto-Regular"),
@@ -55,6 +56,7 @@ export default class App extends Vue {}
 @font-face {
   font-family: "Roboto Slab";
   font-style: normal;
+  font-display: swap;
   font-weight: 400;
   src: url("./assets/fonts/roboto-slab-v11-latin-regular.eot"); /* IE9 Compat Modes */
   src: local(""),
@@ -75,6 +77,7 @@ export default class App extends Vue {}
 @font-face {
   font-family: "Roboto Slab";
   font-style: normal;
+  font-display: swap;
   font-weight: 800;
   src: url("./assets/fonts/roboto-slab-v11-latin-800.eot"); /* IE9 Compat Modes */
   src: local(""),
