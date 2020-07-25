@@ -112,6 +112,46 @@
 
       <div class="breaker"></div>
 
+      <Card id="tcbb">
+        <h2>Twitch Chatbot Boilerplate</h2>
+        <p>
+          One day I wanted to tinker arount with twitch chatbots and exprected a
+          project similar to Probot to exist for Twitch bots and found none. So
+          <b>I</b> wrote it. Idealy you only have to copy and paste a few tokens
+          and don't have to write any other line of code other than your
+          business logic. The boilerplate is split up into two parts, the
+          <a
+            href="https://github.com/FoseFx/twitch-chatbot-boilerplate"
+            target="__blank"
+            >main project</a
+          >
+          and
+          <a
+            href="https://github.com/FoseFx/twitch-chatbot-boilerplate-core"
+            target="__blank"
+            >the core</a
+          >. The latter includes most of it's code and is written in TypeScript.
+          It wrappes around express and tmi.js and can be used in just one
+          function call. If you are too lazy for that and like tools like
+          TypeScript, ESlint or Jest to be set up aswell you can simply clone
+          the main project, where everything is done for you. No worring about
+          OAuth, refresh tokens or other a secure irc connection!
+          <br />
+          Have a look at the project's
+          <a
+            href="https://github.com/FoseFx/twitch-chatbot-boilerplate"
+            target="__blank"
+            >Github page</a
+          >.<br />
+          The core is on
+          <a
+            href="https://npmjs.com/twitch-chatbot-boilerplate"
+            target="__blank"
+            >npm</a
+          >!
+        </p>
+      </Card>
+
       <Card id="mlms">
         <h2>The ML-MS Project</h2>
         <p>
@@ -129,6 +169,8 @@
           <a href="https://github.com/FoseFx-ml-ms" target="__blank">Github</a>.
         </p>
       </Card>
+
+      <div class="breaker"></div>
 
       <Card id="gh">
         <h2>More on Github</h2>
@@ -201,6 +243,10 @@ h1 {
 
   #mlms {
     transform: translateY(-9rem);
+  }
+
+  #tcbb {
+    transform: translateY(-7.5rem);
   }
 
   #gh {
