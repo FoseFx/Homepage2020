@@ -5,6 +5,8 @@
     <div id="projects-wrapper">
       <Card id="posted">
         <h2>Posted</h2>
+        <Badge color="#4FC08D" white>Vue</Badge>
+        <Badge color="yellow" title="Tests">Jest</Badge>
         <img src="posted.jpg" alt="screenshot of posted" />
         <p>
           Can't tell you much right now. c;
@@ -187,10 +189,12 @@
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import Card from "./Card.vue";
+import Badge from "./Badge.vue";
 
 @Component({
   components: {
-    Card
+    Card,
+    Badge
   }
 })
 export default class Projects extends Vue {}
