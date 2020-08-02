@@ -114,6 +114,7 @@
 
       <Card id="tcbb">
         <h2>Twitch Chatbot Boilerplate</h2>
+        <img src="tcbb.jpg" alt="TCBB banner" />
         <p>
           One day I wanted to tinker arount with twitch chatbots and exprected a
           project similar to Probot to exist for Twitch bots and found none. So
