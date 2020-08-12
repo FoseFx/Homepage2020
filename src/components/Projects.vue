@@ -5,6 +5,10 @@
     <div id="projects-wrapper">
       <Card id="posted">
         <h2>Posted</h2>
+        <div class="badges">
+          <Badge alt="Vue" path="-commission-blueviolet?style=flat-square" />
+          <Badge alt="Vue" path="-in development-green?style=flat-square" />
+        </div>
         <img src="posted.jpg" alt="screenshot of posted" />
         <p>
           Can't tell you much right now. c;
@@ -13,6 +17,13 @@
 
       <Card id="ecl">
         <h2>ECL 2.0 Addon</h2>
+        <div class="badges">
+          <Badge alt="Vue" path="-commission-blueviolet?style=flat-square" />
+          <Badge alt="Vue" path="-Web Extension-orange?style=flat-square" />
+          <Badge alt="Vue" path="-Vue-green?style=flat-square" />
+          <Badge alt="Vue" path="-TypeScript-blue?style=flat-square" />
+          <Badge alt="Vue" path="-End of Life-inactive?style=flat-square" />
+        </div>
         <img src="ecl.jpg" alt="screenshot of the addon's user interface" />
         <p>
           ECL is a matchmaking organizer for Counter-Strike: Global Offensive.
@@ -44,6 +55,12 @@
 
       <Card id="bgw">
         <h2>BetterGymWue</h2>
+        <div class="badges">
+          <Badge alt="Vue" path="-Angular-red?style=flat-square" />
+          <Badge alt="Vue" path="-NodeJs-green?style=flat-square" />
+          <Badge alt="Vue" path="-PWA-blue?style=flat-square" />
+          <Badge alt="Vue" path="-End of Life-inactive?style=flat-square" />
+        </div>
         <img src="bgw.jpg" alt="A screenshot of BGW's interface" />
         <p>
           My school used to have a pretty bad way organizing time- and
@@ -86,6 +103,12 @@
 
       <Card id="ugw">
         <h2>UltimateGymWue</h2>
+        <div class="badges">
+          <Badge alt="Vue" path="-Angular-red?style=flat-square" />
+          <Badge alt="Vue" path="-Rust-orange?style=flat-square" />
+          <Badge alt="Vue" path="-PWA-blue?style=flat-square" />
+          <Badge alt="Vue" path="-End of Life-inactive?style=flat-square" />
+        </div>
         <img src="ugw-o.jpg" alt="A screenshot of UGW's interface" />
         <p>
           As BGW's main intent was to provide a code base that theoretically
@@ -114,6 +137,11 @@
 
       <Card id="tcbb">
         <h2>Twitch Chatbot Boilerplate</h2>
+        <div class="badges">
+          <Badge alt="Vue" path="-NodeJs-green?style=flat-square" />
+          <Badge alt="Vue" path="-TypeScript-blue?style=flat-square" />
+          <Badge alt="Vue" path="-tmi.js-purple?style=flat-square" />
+        </div>
         <img src="tcbb.jpg" alt="TCBB banner" />
         <p>
           One day I wanted to tinker arount with twitch chatbots and exprected a
@@ -155,6 +183,13 @@
 
       <Card id="mlms">
         <h2>The ML-MS Project</h2>
+        <div class="badges">
+          <Badge alt="Vue" path="-Python-orange?style=flat-square" />
+          <Badge alt="Vue" path="-Fast.ai-brightgreen?style=flat-square" />
+          <Badge alt="Vue" path="-NodeJs-green?style=flat-square" />
+          <Badge alt="Vue" path="-gRCP-blue?style=flat-square" />
+          <Badge alt="Vue" path="-End of Life-inactive?style=flat-square" />
+        </div>
         <p>
           Imagine an application that is able to tell Glowsticks, Books and
           Stick Notes apart. So, how do I say this... I made it. I am interested
@@ -188,10 +223,12 @@
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import Card from "./Card.vue";
+import Badge from "./Badge.vue";
 
 @Component({
   components: {
-    Card
+    Card,
+    Badge
   }
 })
 export default class Projects extends Vue {}
@@ -253,5 +290,13 @@ h1 {
   #gh {
     transform: translateY(-7rem);
   }
+}
+
+.badges {
+  width: 100%;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  display: flex;
+  justify-content: center;
 }
 </style>
