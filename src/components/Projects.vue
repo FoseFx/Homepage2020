@@ -6,8 +6,14 @@
       <Card id="posted">
         <h2>Posted</h2>
         <div class="badges">
-          <Badge alt="Vue" path="-commission-blueviolet?style=flat-square" />
-          <Badge alt="Vue" path="-in development-green?style=flat-square" />
+          <Badge
+            alt="Commision"
+            path="-commission-blueviolet?style=flat-square"
+          />
+          <Badge
+            alt="In development"
+            path="-in development-green?style=flat-square"
+          />
         </div>
         <img src="posted.jpg" alt="screenshot of posted" />
         <p>
@@ -18,11 +24,20 @@
       <Card id="ecl">
         <h2>ECL 2.0 Addon</h2>
         <div class="badges">
-          <Badge alt="Vue" path="-commission-blueviolet?style=flat-square" />
-          <Badge alt="Vue" path="-Web Extension-orange?style=flat-square" />
+          <Badge
+            alt="Commission"
+            path="-commission-blueviolet?style=flat-square"
+          />
+          <Badge
+            alt="Web Extension"
+            path="-Web Extension-orange?style=flat-square"
+          />
           <Badge alt="Vue" path="-Vue-green?style=flat-square" />
-          <Badge alt="Vue" path="-TypeScript-blue?style=flat-square" />
-          <Badge alt="Vue" path="-End of Life-inactive?style=flat-square" />
+          <Badge alt="TypeScript" path="-TypeScript-blue?style=flat-square" />
+          <Badge
+            alt="End of Life"
+            path="-End of Life-inactive?style=flat-square"
+          />
         </div>
         <img src="ecl.jpg" alt="screenshot of the addon's user interface" />
         <p>
@@ -56,10 +71,13 @@
       <Card id="bgw">
         <h2>BetterGymWue</h2>
         <div class="badges">
-          <Badge alt="Vue" path="-Angular-red?style=flat-square" />
-          <Badge alt="Vue" path="-NodeJs-green?style=flat-square" />
-          <Badge alt="Vue" path="-PWA-blue?style=flat-square" />
-          <Badge alt="Vue" path="-End of Life-inactive?style=flat-square" />
+          <Badge alt="Angular" path="-Angular-red?style=flat-square" />
+          <Badge alt="NodeJs" path="-NodeJs-green?style=flat-square" />
+          <Badge alt="PWA" path="-PWA-blue?style=flat-square" />
+          <Badge
+            alt="End of Life"
+            path="-End of Life-inactive?style=flat-square"
+          />
         </div>
         <img src="bgw.jpg" alt="A screenshot of BGW's interface" />
         <p>
@@ -104,10 +122,13 @@
       <Card id="ugw">
         <h2>UltimateGymWue</h2>
         <div class="badges">
-          <Badge alt="Vue" path="-Angular-red?style=flat-square" />
-          <Badge alt="Vue" path="-Rust-orange?style=flat-square" />
-          <Badge alt="Vue" path="-PWA-blue?style=flat-square" />
-          <Badge alt="Vue" path="-End of Life-inactive?style=flat-square" />
+          <Badge alt="Angular" path="-Angular-red?style=flat-square" />
+          <Badge alt="Rust" path="-Rust-orange?style=flat-square" />
+          <Badge alt="PWA" path="-PWA-blue?style=flat-square" />
+          <Badge
+            alt="End of Life"
+            path="-End of Life-inactive?style=flat-square"
+          />
         </div>
         <img src="ugw-o.jpg" alt="A screenshot of UGW's interface" />
         <p>
@@ -138,9 +159,9 @@
       <Card id="tcbb">
         <h2>Twitch Chatbot Boilerplate</h2>
         <div class="badges">
-          <Badge alt="Vue" path="-NodeJs-green?style=flat-square" />
-          <Badge alt="Vue" path="-TypeScript-blue?style=flat-square" />
-          <Badge alt="Vue" path="-tmi.js-purple?style=flat-square" />
+          <Badge alt="NodeJs" path="-NodeJs-green?style=flat-square" />
+          <Badge alt="TypeScript" path="-TypeScript-blue?style=flat-square" />
+          <Badge alt="tmi.js" path="-tmi.js-purple?style=flat-square" />
         </div>
         <img src="tcbb.jpg" alt="TCBB banner" />
         <p>
@@ -184,11 +205,14 @@
       <Card id="mlms">
         <h2>The ML-MS Project</h2>
         <div class="badges">
-          <Badge alt="Vue" path="-Python-orange?style=flat-square" />
-          <Badge alt="Vue" path="-Fast.ai-brightgreen?style=flat-square" />
-          <Badge alt="Vue" path="-NodeJs-green?style=flat-square" />
-          <Badge alt="Vue" path="-gRCP-blue?style=flat-square" />
-          <Badge alt="Vue" path="-End of Life-inactive?style=flat-square" />
+          <Badge alt="Python" path="-Python-orange?style=flat-square" />
+          <Badge alt="Fast.ai" path="-Fast.ai-brightgreen?style=flat-square" />
+          <Badge alt="NodeJs" path="-NodeJs-green?style=flat-square" />
+          <Badge alt="gRPC" path="-gRPC-blue?style=flat-square" />
+          <Badge
+            alt="End of Life"
+            path="-End of Life-inactive?style=flat-square"
+          />
         </div>
         <p>
           Imagine an application that is able to tell Glowsticks, Books and
