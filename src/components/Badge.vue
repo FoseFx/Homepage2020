@@ -15,6 +15,8 @@ export default class Badge extends Vue {
 <style lang="scss" scoped>
 img {
   padding: 0 !important;
+  padding-top: 0.3rem !important;
+  padding-bottom: 0.3rem !important;
   margin-left: 4px;
   margin-right: 4px;
   width: auto !important;

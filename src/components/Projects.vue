@@ -28,10 +28,7 @@
             alt="Commission"
             path="-commission-blueviolet?style=flat-square"
           />
-          <Badge
-            alt="Web Extension"
-            path="-Web Extension-orange?style=flat-square"
-          />
+          <Badge alt="Web Extension" path="-Web Ext-orange?style=flat-square" />
           <Badge alt="Vue" path="-Vue-green?style=flat-square" />
           <Badge alt="TypeScript" path="-TypeScript-blue?style=flat-square" />
           <Badge
@@ -321,6 +318,7 @@ h1 {
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 </style>

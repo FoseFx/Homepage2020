@@ -98,6 +98,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  overflow-x: hidden;
   padding: 0;
   margin: 0;
   background: #f8f8f8;
