@@ -16,9 +16,7 @@
           />
         </div>
         <img src="posted.jpg" alt="screenshot of posted" />
-        <p>
-          Can't tell you much right now. c;
-        </p>
+        <p>Can't tell you much right now. c;</p>
       </Card>
 
       <Card id="ecl">
@@ -49,8 +47,8 @@
           <a href="https://github.com/FoseFx/ECL-Report-Addon" target="__blank">
             Github</a
           >.<br /><br />
-          Its frontend part was written in <b>Vue.js</b>. <b>Later</b> the
-          folks over at ECL approched me and
+          Its frontend part was written in <b>Vue.js</b>. <b>Later</b> the folks
+          over at ECL approched me and
           <b>asked to develop their official ECL addon</b>. The extension ports
           lots of features they have on their website into Faceit. I wrote it in
           <b>TypeScript</b> and used <b>Webpack</b> as a bundler
@@ -62,8 +60,6 @@
           >.
         </p>
       </Card>
-
-      <div class="breaker"></div>
 
       <Card id="bgw">
         <h2>BetterGymWue</h2>
@@ -151,8 +147,6 @@
         </p>
       </Card>
 
-      <div class="breaker"></div>
-
       <Card id="tcbb">
         <h2>Twitch Chatbot Boilerplate</h2>
         <div class="badges">
@@ -227,7 +221,7 @@
         </p>
       </Card>
 
-      <div class="breaker"></div>
+      <div class="card"></div>
 
       <Card id="gh">
         <h2>More on Github</h2>
@@ -242,15 +236,15 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "nuxt-property-decorator";
-import Card from "./Card.vue";
-import Badge from "./Badge.vue";
+import { Component, Vue } from 'nuxt-property-decorator'
+import Card from './Card.vue'
+import Badge from './Badge.vue'
 
 @Component({
   components: {
     Card,
-    Badge
-  }
+    Badge,
+  },
 })
 export default class Projects extends Vue {}
 </script>
@@ -260,6 +254,7 @@ export default class Projects extends Vue {}
   position: relative;
   z-index: 3;
   padding-top: 5rem;
+  margin-bottom: 2rem;
 }
 h1 {
   line-height: 5rem;
@@ -274,43 +269,63 @@ h1 {
 }
 
 #projects-wrapper {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template: auto / 1fr 1fr;
+  align-items: start;
   justify-content: center;
-  align-items: flex-start;
 
-  @media (min-width: 1231px) {
-    .card::nth-child(2) {
-      margin-right: 0;
-      margin-left: 1rem;
+  .card {
+    justify-self: flex-start;
+    margin-left: 0.5rem;
+    &:nth-child(odd) {
+      justify-self: flex-end;
+      margin-right: 0.5rem;
     }
+  }
+
+  @media (max-width: 1231px) {
+    display: flex;
+    flex-wrap: wrap;
+
     .card {
-      margin-left: 0;
-      margin-right: 1rem;
+      width: 51%;
+      justify-self: center !important;
+    }
+  }
+  @media (max-width: 1000px) {
+    .card {
+      width: 80%;
+    }
+  }
+  @media (max-width: 500px) {
+    .card {
+      width: 90%;
     }
   }
 }
 
-.breaker {
-  width: 100%;
+#posted {
+  grid-row: 1 / 3;
+}
+#ecl {
+  grid-row: 1 / 4;
+}
+#bgw {
+  grid-row: 3 / 6;
 }
 
-@media (min-width: 1231px) {
-  #bgw {
-    transform: translateY(-9rem);
-  }
-
-  #mlms {
-    transform: translateY(-9rem);
-  }
-
-  #tcbb {
-    transform: translateY(-7.5rem);
-  }
-
-  #gh {
-    transform: translateY(-7rem);
-  }
+#ugw {
+  grid-row: 4 / 8;
+}
+#tcbb {
+  grid-row: 6 / 11;
+}
+#mlms {
+  grid-row: 8 / 9;
+}
+#gh {
+  grid-row: 9 / 10;
+  grid-column: 2;
 }
 
 .badges {

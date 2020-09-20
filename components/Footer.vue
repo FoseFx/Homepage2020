@@ -65,7 +65,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "nuxt-property-decorator";
+import { Component, Vue } from 'nuxt-property-decorator'
 
 @Component
 export default class Footer extends Vue {}
@@ -73,6 +73,7 @@ export default class Footer extends Vue {}
 
 <style lang="scss" scoped>
 footer {
+  margin-top: 2rem;
   padding: 2rem 2rem;
   background: #3d3d3d;
   color: white;
@@ -84,6 +85,7 @@ footer {
     max-width: 30rem;
     min-width: 20rem;
     width: 50%;
+    padding: 0.5rem;
   }
 }
 

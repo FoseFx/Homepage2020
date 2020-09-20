@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "nuxt-property-decorator";
+import { Component, Vue } from 'nuxt-property-decorator'
 
 @Component
 export default class Card extends Vue {}
@@ -37,6 +37,7 @@ export default class Card extends Vue {}
   h2 {
     font-size: 2rem;
     padding-top: 1rem;
+    text-align: center;
   }
 }
 </style>
