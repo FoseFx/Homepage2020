@@ -16,7 +16,21 @@ import { Component } from 'nuxt-property-decorator'
 @Component({
   name: 'Index',
 })
-export default class Index extends Vue {}
+export default class Index extends Vue {
+  head() {
+    return {
+      title: 'Max Baumann - FoseFx',
+      meta: [
+        {
+          name: 'description',
+          content:
+            'My name is Max Baumann, I am a Web Developer by heart for many years now and' +
+            'I like to tinker with all kinds of technology.',
+        },
+      ],
+    }
+  }
+}
 </script>
 
 <style lang="scss">
