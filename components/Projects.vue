@@ -49,7 +49,7 @@
           <a href="https://github.com/FoseFx/ECL-Report-Addon" target="__blank">
             Github</a
           >.<br /><br />
-          It's frontend part was written in <b>Vue.js</b>. <b>Later</b> the
+          Its frontend part was written in <b>Vue.js</b>. <b>Later</b> the
           folks over at ECL approched me and
           <b>asked to develop their official ECL addon</b>. The extension ports
           lots of features they have on their website into Faceit. I wrote it in
