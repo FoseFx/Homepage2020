@@ -47,7 +47,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { Component, Vue } from "nuxt-property-decorator";
 
 @Component
 export default class Hand extends Vue {}

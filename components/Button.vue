@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue, Emit } from "vue-property-decorator";
+import { Component, Vue, Emit } from "nuxt-property-decorator";
 
 @Component
 export default class Button extends Vue {

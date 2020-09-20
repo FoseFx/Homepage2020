@@ -1,65 +1,119 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">Homepage2020</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+  <div id="app">
+    <Hero />
+    <About />
+    <NameBg />
+    <Projects />
+    <Social :absolute="false" />
+    <Footer />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
+import { Component } from 'nuxt-property-decorator'
 
-export default Vue.extend({})
+@Component({
+  name: 'Index',
+})
+export default class Index extends Vue {}
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+<style lang="scss">
+@import '../assets/_anim.scss';
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('../assets/fonts/roboto-v20-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Roboto'), local('Roboto-Regular'),
+    url('../assets/fonts/roboto-v20-latin-regular.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('../assets/fonts/roboto-v20-latin-regular.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('../assets/fonts/roboto-v20-latin-regular.woff') format('woff'),
+    /* Modern Browsers */ url('../assets/fonts/roboto-v20-latin-regular.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../assets/fonts/roboto-v20-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-slab-regular - latin */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('../assets/fonts/roboto-slab-v11-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('../assets/fonts/roboto-slab-v11-latin-regular.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('../assets/fonts/roboto-slab-v11-latin-regular.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('../assets/fonts/roboto-slab-v11-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+      url('../assets/fonts/roboto-slab-v11-latin-regular.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../assets/fonts/roboto-slab-v11-latin-regular.svg#RobotoSlab')
+      format('svg'); /* Legacy iOS */
 }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+/* roboto-slab-800 - latin */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: url('../assets/fonts/roboto-slab-v11-latin-800.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('../assets/fonts/roboto-slab-v11-latin-800.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('../assets/fonts/roboto-slab-v11-latin-800.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('../assets/fonts/roboto-slab-v11-latin-800.woff') format('woff'),
+    /* Modern Browsers */ url('../assets/fonts/roboto-slab-v11-latin-800.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../assets/fonts/roboto-slab-v11-latin-800.svg#RobotoSlab')
+      format('svg'); /* Legacy iOS */
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  background: #f8f8f8;
+  font-family: 'Roboto', sans-serif;
 }
 
-.links {
-  padding-top: 15px;
+h1,
+h2 {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 800;
+
+  @media (max-width: 1500px) {
+    font-size: 65px;
+  }
+
+  @media (max-width: 1000px) {
+    font-size: 50px;
+  }
+}
+
+a {
+  color: initial;
 }
 </style>

@@ -18,7 +18,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { Component, Vue } from "nuxt-property-decorator";
 import Button from "./Button.vue";
 import Hand from "./Hand.vue";
 import Social from "./Social.vue";
