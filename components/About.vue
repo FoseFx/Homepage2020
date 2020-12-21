@@ -12,9 +12,13 @@
           <a href="https://www.github.com/fosefx" target="__blank">Github</a>.
           Obviously you will not find everything I’m working on there because I
           like to tinker around with all kinds of technology (systems, mobile,
-          DevOps, you name it). At the time of writing I just finished school
-          and am about to study CompSci in Aachen, Germany. There are two things
-          I care most about when developing something:
+          DevOps, you name it). Right now I study
+          <a
+            href="https://ranking.zeit.de/che/en/fachbereich/400131?ab=3"
+            target="__blank"
+          >
+            computer science in Aachen, Germany</a
+          >. There are two things I care most about when developing something:
           <b>Security and usability</b>. This means I try to stay up to date on
           what is happening in the InfoSec world and consider <b>A11y</b> and
           <b>performance</b> where I can. I love <b>Open Source</b> and have
@@ -27,7 +31,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "nuxt-property-decorator";
+import { Component, Vue } from 'nuxt-property-decorator'
 
 @Component
 export default class About extends Vue {}
