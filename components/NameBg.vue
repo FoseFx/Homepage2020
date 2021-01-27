@@ -27,6 +27,7 @@ export default class NameBg extends Vue {}
   color: #f8f8f8;
   opacity: 0.4;
   line-height: 11rem;
+  user-select: none;
 
   @media (max-width: 750px) {
     display: none;
