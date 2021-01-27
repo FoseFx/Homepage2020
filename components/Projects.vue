@@ -158,9 +158,9 @@
         <p>
           One day I wanted to tinker arount with twitch chatbots and exprected a
           project similar to Probot to exist for Twitch bots and found none. So
-          <b>I</b> wrote it. Idealy you only have to copy and paste a few tokens
-          and don't have to write any other line of code other than your
-          business logic. The boilerplate is split up into two parts, the
+          I wrote it. Idealy you only have to copy and paste a few tokens and
+          don't have to write any other line of code other than your business
+          logic. The boilerplate is split up into two parts, the
           <a
             href="https://github.com/FoseFx/twitch-chatbot-boilerplate"
             target="__blank"
