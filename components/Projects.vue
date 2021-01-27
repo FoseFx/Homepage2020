@@ -78,27 +78,25 @@
           substitution plans. So in the beginning of 2017 I started working on a
           project that would enhance the way students could check those plans. I
           started with a prototype written with jQuery and then moved on to
-          implement BGW in <b>Angular</b>. I think this was actually my
-          <b>first big Angular project</b>. The idea was to have a minimal
-          backend that just acted as a proxy in order to bypass CORS policies so
-          the <b>frontend could do all the work</b>. I added a caching layer
-          later on. The <b>PWA</b> would <b>download</b> the timetable once and
+          implement BGW in <b>Angular</b>. I think this was actually my first
+          big Angular project. The idea was to have a minimal backend that just
+          acted as a proxy in order to bypass CORS policies so the
+          <b>frontend could do all the work</b>. I added a caching layer later
+          on. The <b>PWA</b> would download the timetable once and
           <b>scape</b>
           the received HTML-table in order to create a JSON representation. With
-          this information I could
-          <b>then determine which classes are available</b>. In an initial setup
-          step the user can then choose their classes in an
+          this information I could then determine which classes are available.
+          In an initial setup step the user can then choose their classes in an
           <b>intuitive way</b>. The main feature of BGW is the
-          <b>personalized timetable</b> for the day. BGW would also
-          <b>crawl</b> the currently available substitution plans and after
-          scraping it <b>merges the information</b> into the timetable
-          represented with colors. Unfortunately (or fortunately, ... depends)
-          my school switched to a different system (which also has it's flaws).
-          In total my PWA managed to gain about
-          <b>100 daily users (about 10% of the school)</b>. I had plans to
-          migrate parts of it to the backend and let users use it with their
-          <b>Voice Assistants using Dialogflow</b>. Due to the lack of interest
-          I removed that branch half way there.<br /><br />
+          <b>personalized timetable</b> for the day. BGW would also crawl the
+          currently available substitution plans and after scraping it merges
+          the information into the timetable represented with colors.
+          Unfortunately (or fortunately, ... depends) my school switched to a
+          different system (which also has it's flaws). In total my PWA managed
+          to gain about <b>100 daily users</b> (about 10% of the school). I had
+          plans to migrate parts of it to the backend and let users use it with
+          their Voice Assistants using Dialogflow. Due to the lack of interest I
+          removed that branch half way there.<br /><br />
           Check it out on
           <a href="https://github.com/FoseFx/BetterGymWue" target="__blank">
             Github</a
