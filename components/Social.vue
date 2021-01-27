@@ -203,6 +203,7 @@ a {
   opacity: 0.5;
   transition: opacity 0.1s linear;
   margin: 0 0.2rem;
+  width: 50px;
 
   &:hover {
     opacity: 0.7;
