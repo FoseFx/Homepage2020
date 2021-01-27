@@ -18,21 +18,21 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "nuxt-property-decorator";
-import Button from "./Button.vue";
-import Hand from "./Hand.vue";
-import Social from "./Social.vue";
+import { Component, Vue } from 'nuxt-property-decorator'
+import Button from './Button.vue'
+import Hand from './Hand.vue'
+import Social from './Social.vue'
 
 @Component({
   components: {
     Button,
     Hand,
-    Social
-  }
+    Social,
+  },
 })
 export default class Hero extends Vue {
   goToAbout() {
-    document.location.hash = "about";
+    document.location.hash = 'about'
   }
 }
 </script>
@@ -178,9 +178,16 @@ button {
 
   #hero-left {
     height: 70% !important;
+    @media (max-height: 790px) {
+      height: 100% !important;
+    }
   }
   #hero-right {
     height: 40% !important;
+    min-height: 400px;
+    @media (max-height: 790px) {
+      display: none !important;
+    }
   }
 }
 </style>

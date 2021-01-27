@@ -204,6 +204,7 @@ a {
   transition: opacity 0.1s linear;
   margin: 0 0.2rem;
   width: 50px;
+  height: 50px;
 
   &:hover {
     opacity: 0.7;
@@ -218,17 +219,11 @@ a {
   position: static;
   padding-bottom: 0.5rem;
   margin: 0 auto;
-  @media (max-width: 1231px) {
-    &:not(.absolute) {
-      padding-bottom: 1.5rem;
-      padding-top: 1.5rem;
-    }
-  }
 }
 
 @media (min-width: 500px) {
   #socials {
-    width: 80%;
+    width: 90%;
     padding-bottom: 0;
     max-width: 20rem;
     height: 3rem;
@@ -236,6 +231,11 @@ a {
       position: absolute;
       bottom: 0.2rem;
       left: calc(50vw - 10rem);
+    }
+  }
+  @media (max-height: 350px) {
+    #socials.absolute {
+      display: none;
     }
   }
 }
