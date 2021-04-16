@@ -3,20 +3,30 @@
     <h1>Featured<br />Projects</h1>
 
     <div id="projects-wrapper">
-      <Card id="posted">
-        <h2>Posted</h2>
+      <Card id="bttvandroid">
+        <h2>bttv-android</h2>
         <div class="badges">
           <Badge
-            alt="Commision"
-            path="-commission-blueviolet?style=flat-square"
+            alt="Android Mod"
+            path="-Android%20Mod-green?style=flat-square"
           />
+          <Badge alt="Java" path="-Java-brown?style=flat-square" />
+          <Badge alt="Smali" path="-Smali-grey?style=flat-square" />
           <Badge
-            alt="In development"
-            path="-in development-green?style=flat-square"
+            alt="Maintained"
+            path="-Maintained-darkgreen?style=flat-square"
           />
         </div>
-        <img src="posted.jpg" alt="screenshot of posted" />
-        <p>Can't tell you much right now. c;</p>
+        <img src="bttv.jpg" alt="social media header for bttv-android" />
+        <p>
+          A <b>mod</b> of the <b>Twitch</b> Android App adding BetterTTV and
+          FrankerFaceZ emotes. For this project I also built some tooling to
+          keep the mod open source.<br />
+          Check out the
+          <a target="__blank" href="https://github.com/bttv-android">
+            Project's Github Page.
+          </a>
+        </p>
       </Card>
 
       <Card id="ecl">
@@ -302,7 +312,7 @@ h1 {
   }
 }
 
-#posted {
+#bttvandroid {
   grid-row: 1 / 3;
 }
 #ecl {
