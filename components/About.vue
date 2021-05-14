@@ -5,7 +5,7 @@
       <div id="about">
         <h1 ref="heading" class="fresh-anim fast">About me</h1>
         <p>
-          My name is Max Baumann, 18 years old and a <b>Web Developer</b> by
+          My name is Max Baumann, I am 19 years old and a <b>Web Developer</b> by
           heart for many years now. If you are interested in some of the
           projects I have worked on <a href="#projects">scroll down</a> or visit
           my
