@@ -41,8 +41,7 @@
     <div>
       <h3>Privacy</h3>
       <p>
-        Cloudflare, a third party that protects my servers from malitious actors
-        sets a necessary cookie. Their
+        I use Cloudflare for caching. Their
         <a href="https://www.cloudflare.com/privacypolicy/" target="__blank"
           >privacy policy</a
         >
@@ -55,7 +54,7 @@
         <br />
         For technical and security reasons Google and Cloudflare may store basic
         information about your browser like the User-Agent, IP-Address,
-        Operating System or cookies.
+        or Operating System.
         <br />
         <br />
         <b>This site does not include any tracking scripts!</b>
