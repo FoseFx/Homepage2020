@@ -141,7 +141,7 @@
     </a>
 
     <a
-      href="mailto:max@fosefx.com"
+      href="mailto:max@bmn.dev"
       target="__blank"
       style="margin-left: 0.5rem"
     >
