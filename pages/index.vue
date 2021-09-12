@@ -19,7 +19,7 @@ import { Component } from 'nuxt-property-decorator'
 export default class Index extends Vue {
   head() {
     return {
-      title: 'Max Baumann - FoseFx',
+      title: 'Max Baumann',
       meta: [
         {
           name: 'description',
