@@ -113,7 +113,7 @@
     </a>
 
     <a
-      href="https://www.linkedin.com/in/max-b-253824187/"
+      href="https://www.linkedin.com/in/max-bmn/"
       target="__blank"
       rel="noopener"
       style="transform: scale(0.9)"
