@@ -4,13 +4,15 @@
     <div id="legal">
       <h3>Max Baumann</h3>
       <p>
-        Thank you Twitter and contributors for the
-        <a href="https://twemoji.twitter.com/" target="__blank">Emoji</a>. It’s
-        licensed under
+        Thanks Twitter and contributors for the
+        <a href="https://twemoji.twitter.com/" target="__blank">Emoji</a>.
+        <br />
+        It’s licensed under
         <a href="https://creativecommons.org/licenses/by/4.0/" target="__blank"
           >CC-BY 4.0</a
         >!
       </p>
+      <br>
       <p>
         Thank you
         <a href="https://www.manypixels.co/gallery/" target="__blank"
@@ -32,33 +34,29 @@
           >www.flaticon.com</a
         >
       </p>
+      <br>
 
-      <p>
+      <p><small>
         LinkedIn, the LinkedIn logo, the IN logo and InMail are registered
         trademarks or trademarks of LinkedIn Corporation and its affiliates in
         the United States and/or other countries.
-      </p>
+      </small></p>
     </div>
     <div>
       <h3>Privacy</h3>
       <p>
-        I use Cloudflare for caching. Their
+        This website is hosted on Cloudflare Pages. Their
         <a href="https://www.cloudflare.com/privacypolicy/" target="__blank"
           >privacy policy</a
         >
         applies.
         <br />
-        The server used for serving this website is hosted on Google's
-        <a href="https://firebase.google.com/support/privacy" target="__blank"
-          >Firebase</a
-        >.
-        <br />
-        For technical and security reasons Google and Cloudflare may store basic
+        For technical and security reasons Cloudflare may store basic
         information about your browser like the User-Agent, IP-Address,
         or Operating System.
         <br />
         <br />
-        <b>This site does not include any tracking scripts!</b>
+        <b>No tracking scripts, no cookies. Just a website.</b>
       </p>
     </div>
   </footer>
@@ -110,6 +108,7 @@ h3 {
   padding: 0;
   margin: 0;
   font-size: 1.5rem;
+  margin-bottom: 0.8rem;
 }
 
 </style>
