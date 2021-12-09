@@ -213,7 +213,6 @@ a {
 
 #socials {
   width: 80%;
-  height: 5%;
   display: flex;
   justify-content: center;
   position: static;
@@ -224,12 +223,13 @@ a {
 @media (min-width: 500px) {
   #socials {
     width: 90%;
+    height: 5%;
     padding-bottom: 0;
     max-width: 20rem;
     height: 3rem;
     &.absolute {
       position: absolute;
-      bottom: 0.2rem;
+      bottom: 0.5rem;
       left: calc(50vw - 10rem);
     }
   }
