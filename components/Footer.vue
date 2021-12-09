@@ -1,7 +1,8 @@
 <template>
+<div class="footer-wrapper">
   <footer>
     <div id="legal">
-      <h3>© Max Baumann</h3>
+      <h3>Max Baumann</h3>
       <p>
         Thank you Twitter and contributors for the
         <a href="https://twemoji.twitter.com/" target="__blank">Emoji</a>. It’s
@@ -61,6 +62,7 @@
       </p>
     </div>
   </footer>
+</div>
 </template>
 
 <script lang="ts">
@@ -71,20 +73,32 @@ export default class Footer extends Vue {}
 </script>
 
 <style lang="scss" scoped>
+.footer-wrapper {
+  background: #3d3d3d;
+}
+
 footer {
+  max-width: 75rem;
+  margin: 0 auto;
   margin-top: 2rem;
   padding: 2rem 2rem;
-  background: #3d3d3d;
   color: white;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 
   & > div {
-    max-width: 30rem;
-    min-width: 20rem;
+    margin: 0 auto;
     width: 50%;
-    padding: 0.5rem;
+    padding: 0.5rem 0.8rem;
+
+    & > p {
+      padding-left: 0.1rem;
+    }
+
+    @media (max-width: 900px) {
+      width: 80%;
+    }
   }
 }
 
@@ -98,9 +112,4 @@ h3 {
   font-size: 1.5rem;
 }
 
-@media (min-width: 1000px) {
-  #legal p {
-    padding-left: 2rem;
-  }
-}
 </style>
