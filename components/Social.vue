@@ -4,7 +4,7 @@
       <svg
         id="twitter"
         role="figure"
-        aria-label="Twitter logo"
+        aria-label="Twitter"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 400 400"
       >
@@ -23,7 +23,7 @@
     <a href="https://www.github.com/fosefx" target="__blank" rel="noopener">
       <svg
         role="figure"
-        aria-label="Github logo"
+        aria-label="Github"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
         viewBox="0 0 438.549 438.549"
@@ -65,7 +65,7 @@
         role="figure"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 586 559"
-        aria-label="Gitlab logo"
+        aria-label="Gitlab"
       >
         <g id="g44">
           <path
@@ -119,7 +119,7 @@
       style="transform: scale(0.9)"
     >
       <svg
-        aria-label="Linkedin logo"
+        aria-label="Linkedin"
         role="figure"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -146,7 +146,7 @@
       style="margin-left: 0.5rem"
     >
       <svg
-        aria-label="Email icon"
+        aria-label="Email"
         role="figure"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -179,6 +179,11 @@
         </g>
       </svg>
     </a>
+    <a href="/pgp"
+      target="__blank"
+      style="margin-left: 0.5rem">
+      <svg aria-label="PGP Key" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 0 24 24" width="40px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M12.65 10C11.83 7.67 9.61 6 7 6c-3.31 0-6 2.69-6 6s2.69 6 6 6c2.61 0 4.83-1.67 5.65-4H17v4h4v-4h2v-4H12.65zM7 14c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg>
+      </a>
   </div>
 </template>
 
