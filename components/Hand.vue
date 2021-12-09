@@ -1,5 +1,5 @@
 <template>
-  <div role="figure" aria-label="Animated waving hand emoji" id="hand">
+  <div id="hand" role="figure" aria-label="Animated waving hand emoji">
     <svg
       width="386"
       height="386"

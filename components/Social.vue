@@ -2,9 +2,9 @@
   <div id="socials" :class="{ absolute: absolute }">
     <a href="https://www.twitter.com/fosefx" target="__blank" rel="noopener">
       <svg
+        id="twitter"
         role="figure"
         aria-label="Twitter logo"
-        id="twitter"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 400 400"
       >
