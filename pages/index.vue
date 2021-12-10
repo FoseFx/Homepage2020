@@ -10,8 +10,8 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-import { Component } from 'nuxt-property-decorator'
+import Vue from 'vue';
+import { Component } from 'nuxt-property-decorator';
 
 @Component({
   name: 'Index',
@@ -28,7 +28,7 @@ export default class Index extends Vue {
             'I like to tinker with all kinds of technology.',
         },
       ],
-    }
+    };
   }
 }
 </script>

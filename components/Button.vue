@@ -5,11 +5,11 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue, Emit } from "nuxt-property-decorator";
+import { Component, Vue, Emit } from 'nuxt-property-decorator';
 
 @Component
 export default class Button extends Vue {
-  @Emit("click")
+  @Emit('click')
   private click(e: Event): Event {
     return e;
   }

@@ -5,10 +5,10 @@
       <div id="about">
         <h1 ref="heading" class="fresh-anim fast">About me</h1>
         <p>
-          My name is Max Baumann, I am 19 years old and a <b>Web Developer</b> by
-          heart for many years now. If you are interested in some of the
-          projects I have worked on <a href="#projects">scroll down</a> or visit
-          my
+          My name is Max Baumann, I am 19 years old and a
+          <b>Web Developer</b> by heart for many years now. If you are
+          interested in some of the projects I have worked on
+          <a href="#projects">scroll down</a> or visit my
           <a href="https://www.github.com/fosefx" target="__blank">Github</a>.
           Obviously you will not find everything I’m working on there because I
           like to tinker around with all kinds of technology (systems, mobile,
@@ -31,7 +31,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'nuxt-property-decorator'
+import { Component, Vue } from 'nuxt-property-decorator';
 
 @Component
 export default class About extends Vue {}

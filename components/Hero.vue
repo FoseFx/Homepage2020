@@ -18,10 +18,10 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'nuxt-property-decorator'
-import Button from './Button.vue'
-import Hand from './Hand.vue'
-import Social from './Social.vue'
+import { Component, Vue } from 'nuxt-property-decorator';
+import Button from './Button.vue';
+import Hand from './Hand.vue';
+import Social from './Social.vue';
 
 @Component({
   components: {
@@ -32,7 +32,7 @@ import Social from './Social.vue'
 })
 export default class Hero extends Vue {
   goToAbout() {
-    document.location.hash = 'about'
+    document.location.hash = 'about';
   }
 }
 </script>

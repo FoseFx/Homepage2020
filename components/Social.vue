@@ -140,11 +140,7 @@
       </svg>
     </a>
 
-    <a
-      href="mailto:max@bmn.dev"
-      target="__blank"
-      style="margin-left: 0.5rem"
-    >
+    <a href="mailto:max@bmn.dev" target="__blank" style="margin-left: 0.5rem">
       <svg
         aria-label="Email"
         role="figure"
@@ -179,20 +175,30 @@
         </g>
       </svg>
     </a>
-    <a href="/max@bmn.dev.asc"
-      target="__blank"
-      style="margin-left: 0.5rem">
-      <svg aria-label="PGP Key" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 0 24 24" width="40px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M12.65 10C11.83 7.67 9.61 6 7 6c-3.31 0-6 2.69-6 6s2.69 6 6 6c2.61 0 4.83-1.67 5.65-4H17v4h4v-4h2v-4H12.65zM7 14c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg>
-      </a>
+    <a href="/max@bmn.dev.asc" target="__blank" style="margin-left: 0.5rem">
+      <svg
+        aria-label="PGP Key"
+        xmlns="http://www.w3.org/2000/svg"
+        height="40px"
+        viewBox="0 0 24 24"
+        width="40px"
+        fill="#000000"
+      >
+        <path d="M0 0h24v24H0z" fill="none" />
+        <path
+          d="M12.65 10C11.83 7.67 9.61 6 7 6c-3.31 0-6 2.69-6 6s2.69 6 6 6c2.61 0 4.83-1.67 5.65-4H17v4h4v-4h2v-4H12.65zM7 14c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
+        />
+      </svg>
+    </a>
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Vue, Prop } from 'nuxt-property-decorator'
+import { Component, Vue, Prop } from 'nuxt-property-decorator';
 
 @Component
 export default class Social extends Vue {
-  @Prop({ type: Boolean, default: true }) private absolute!: boolean
+  @Prop({ type: Boolean, default: true }) private absolute!: boolean;
 }
 </script>
 
