@@ -18,10 +18,7 @@
             target="__blank"
           >
             computer science in Aachen, Germany</a
-          >. There are two things I care most about when developing something:
-          <b>Security and usability</b>. This means I try to stay up to date on
-          what is happening in the InfoSec world and consider <b>A11y</b> and
-          <b>performance</b> where I can. I love <b>Open Source</b> and have
+          >. I love <b>Open Source</b> and have
           contributed to numerous projects. I’m sure you and me will get along
           fine, so hit me up on my socials above 🙃
         </p>
