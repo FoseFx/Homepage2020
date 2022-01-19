@@ -60,7 +60,7 @@
           Operating System.
           <br />
           <br />
-          <b>No tracking scripts, no cookies. Just a website.</b>
+          <p>No tracking scripts, no cookies. Just a website.</p>
         </p>
       </div>
     </footer>
