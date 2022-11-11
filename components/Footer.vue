@@ -61,6 +61,7 @@
           <br />
           <br />
           <p>No tracking scripts, no cookies. Just a website.</p>
+          <a style="display: none;" rel="me" href="https://mastodon.social/@maxbmn">Mastodon</a>
         </p>
       </div>
     </footer>
