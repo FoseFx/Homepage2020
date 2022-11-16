@@ -1,5 +1,5 @@
 <template>
-  <img :alt="alt" :src="'https://img.shields.io/badge/' + path" />
+  <img :alt="alt" :src="'https://img.shields.io/' + path" />
 </template>
 
 <script lang="ts">

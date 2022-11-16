@@ -8,14 +8,15 @@
         <div class="badges">
           <Badge
             alt="Android Mod"
-            path="-Android%20Mod-green?style=flat-square"
+            path="badge/-Android%20Mod-green?style=flat-square"
           />
-          <Badge alt="Java" path="-Java-brown?style=flat-square" />
-          <Badge alt="Smali" path="-Smali-grey?style=flat-square" />
+          <Badge alt="Java" path="badge/-Java-brown?style=flat-square" />
+          <Badge alt="Smali" path="badge/-Smali-grey?style=flat-square" />
           <Badge
             alt="Maintained"
-            path="-Maintained-darkgreen?style=flat-square"
+            path="badge/-Maintained-darkgreen?style=flat-square"
           />
+          <Badge alt="Total Downloads" path="github/downloads/bttv-android/bttv/total?color=yellowgreen&label=downloads%20total&style=flat-square" />
         </div>
         <img src="bttv.jpg" alt="social media header for bttv-android" />
         <p>
@@ -34,14 +35,14 @@
         <div class="badges">
           <Badge
             alt="Commission"
-            path="-commission-blueviolet?style=flat-square"
+            path="badge/-commission-blueviolet?style=flat-square"
           />
-          <Badge alt="Web Extension" path="-Web Ext-orange?style=flat-square" />
-          <Badge alt="Vue" path="-Vue-green?style=flat-square" />
-          <Badge alt="TypeScript" path="-TypeScript-blue?style=flat-square" />
+          <Badge alt="Web Extension" path="badge/-Web Ext-orange?style=flat-square" />
+          <Badge alt="Vue" path="badge/-Vue-green?style=flat-square" />
+          <Badge alt="TypeScript" path="badge/-TypeScript-blue?style=flat-square" />
           <Badge
             alt="End of Life"
-            path="-End of Life-inactive?style=flat-square"
+            path="badge/-End of Life-inactive?style=flat-square"
           />
         </div>
         <img src="ecl.jpg" alt="screenshot of the addon's user interface" />
@@ -74,12 +75,12 @@
       <Card id="bgw">
         <h2>BetterGymWue</h2>
         <div class="badges">
-          <Badge alt="Angular" path="-Angular-red?style=flat-square" />
-          <Badge alt="NodeJs" path="-NodeJs-green?style=flat-square" />
-          <Badge alt="PWA" path="-PWA-blue?style=flat-square" />
+          <Badge alt="Angular" path="badge/-Angular-red?style=flat-square" />
+          <Badge alt="NodeJs" path="badge/-NodeJs-green?style=flat-square" />
+          <Badge alt="PWA" path="badge/-PWA-blue?style=flat-square" />
           <Badge
             alt="End of Life"
-            path="-End of Life-inactive?style=flat-square"
+            path="badge/-End of Life-inactive?style=flat-square"
           />
         </div>
         <img src="bgw.jpg" alt="A screenshot of BGW's interface" />
@@ -123,12 +124,12 @@
       <Card id="ugw">
         <h2>UltimateGymWue</h2>
         <div class="badges">
-          <Badge alt="Angular" path="-Angular-red?style=flat-square" />
-          <Badge alt="Rust" path="-Rust-orange?style=flat-square" />
-          <Badge alt="PWA" path="-PWA-blue?style=flat-square" />
+          <Badge alt="Angular" path="badge/-Angular-red?style=flat-square" />
+          <Badge alt="Rust" path="badge/-Rust-orange?style=flat-square" />
+          <Badge alt="PWA" path="badge/-PWA-blue?style=flat-square" />
           <Badge
             alt="End of Life"
-            path="-End of Life-inactive?style=flat-square"
+            path="badge/-End of Life-inactive?style=flat-square"
           />
         </div>
         <img src="ugw-o.jpg" alt="A screenshot of UGW's interface" />
@@ -158,9 +159,9 @@
       <Card id="tcbb">
         <h2>Twitch Chatbot Boilerplate</h2>
         <div class="badges">
-          <Badge alt="NodeJs" path="-NodeJs-green?style=flat-square" />
-          <Badge alt="TypeScript" path="-TypeScript-blue?style=flat-square" />
-          <Badge alt="tmi.js" path="-tmi.js-purple?style=flat-square" />
+          <Badge alt="NodeJs" path="badge/-NodeJs-green?style=flat-square" />
+          <Badge alt="TypeScript" path="badge/-TypeScript-blue?style=flat-square" />
+          <Badge alt="tmi.js" path="badge/-tmi.js-purple?style=flat-square" />
         </div>
         <img src="tcbb.jpg" alt="TCBB banner" />
         <p>
@@ -204,13 +205,13 @@
       <Card id="mlms">
         <h2>The ML-MS Project</h2>
         <div class="badges">
-          <Badge alt="Python" path="-Python-orange?style=flat-square" />
-          <Badge alt="Fast.ai" path="-Fast.ai-brightgreen?style=flat-square" />
-          <Badge alt="NodeJs" path="-NodeJs-green?style=flat-square" />
-          <Badge alt="gRPC" path="-gRPC-blue?style=flat-square" />
+          <Badge alt="Python" path="badge/-Python-orange?style=flat-square" />
+          <Badge alt="Fast.ai" path="badge/-Fast.ai-brightgreen?style=flat-square" />
+          <Badge alt="NodeJs" path="badge/-NodeJs-green?style=flat-square" />
+          <Badge alt="gRPC" path="badge/-gRPC-blue?style=flat-square" />
           <Badge
             alt="End of Life"
-            path="-End of Life-inactive?style=flat-square"
+            path="badge/-End of Life-inactive?style=flat-square"
           />
         </div>
         <p>
