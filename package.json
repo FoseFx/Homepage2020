@@ -13,7 +13,7 @@
     "prettier": "prettier . --write"
   },
   "dependencies": {
-    "core-js": "^3.26.1",
+    "core-js": "^3.27.0",
     "nuxt": "^2.15.7",
     "nuxt-property-decorator": "^2.9.1"
   },
