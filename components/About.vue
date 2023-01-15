@@ -5,16 +5,15 @@
       <div id="about">
         <h1 ref="heading" class="fresh-anim fast">About me</h1>
         <p>
-          My name is Max Baumann and I am a
-          <b>Web Developer</b> by heart for many years now. If you are
-          interested in some of the projects I have worked on
+          I am Max Baumann and Software and Web Developer for many years now.
+          If you are interested in some of the projects I have worked on
           <a href="#projects">scroll down</a> or visit my
           <a href="https://www.github.com/fosefx" target="__blank">Github</a>.
-          Obviously you will not find everything I’m working on there because I
+          Obviously you will not find everything I'm working on there because I
           like to tinker around with all kinds of technology (systems, mobile,
-          DevOps, you name it). Right now I study computer science in Aachen, Germany.
+          DevOps, you name it). Currently I study computer science in Aachen, Germany.
           I love <b>Open Source</b> and have
-          contributed to numerous projects. I’m sure you and me will get along
+          contributed to numerous projects. I'm sure you and me will get along
           fine, so hit me up on my socials above 🙃
         </p>
       </div>

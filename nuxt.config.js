@@ -8,8 +8,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { 'http-equiv': 'Permissions-Policy', content: 'interest-cohort=()' },
+      { hid: 'description', name: 'description', content: "I am Max Baumann and Software and Web Developer for many years now. " +
+          "If you are interested in some of the projects I have worked on scroll down or visit my Github. " + 
+          "Obviously you will not find everything I'm working on there because I like to tinker around with all kinds of technology. " +
+          "Currently I study computer science in Aachen, Germany. I love Open Source and have contributed to numerous projects." },
+      { 'http-equiv': 'Permissions-Policy', content: 'interest-cohort=()' }, // https://github.com/WICG/floc#opting-out-of-computation
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
