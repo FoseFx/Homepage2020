@@ -14,7 +14,7 @@
           DevOps, you name it). Currently I study computer science in Aachen, Germany.
           I love <b>Open Source</b> and have contributed to numerous projects, including
           <a href="https://github.com/rust-lang/rust/commits?author=FoseFx" target="__blank">rust</a>,
-          <a href="https://github.com/probot/probot/commits?author=FoseFx" target="__blank">probot</a>&nbsp;
+          <a href="https://github.com/probot/probot/commits?author=FoseFx" target="__blank">probot</a>
           and other utensils you might have used. I'm sure you and me will get along fine,
           so hit me up on my socials above 🙃
         </p>
@@ -38,6 +38,7 @@ export default class About extends Vue {}
   display: flex;
   justify-content: center;
   align-items: center;
+  scroll-margin-top: 10vh;
 
   & > * {
     width: 50%;
