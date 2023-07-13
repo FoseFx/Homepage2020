@@ -7,7 +7,7 @@
           <span id="hey">Hey!</span><br />
           <span id="max" class="fresh-anim">I'm Max</span>
         </h1>
-        <h2>Web Developer</h2>
+        <h2>Software Engineer</h2>
         <Button @click="goToAbout()">Read more</Button>
       </div>
     </div>
