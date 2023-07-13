@@ -5,16 +5,18 @@
       <div id="about">
         <h1 ref="heading" class="fresh-anim fast">About me</h1>
         <p>
-          I am Max Baumann and Software and Web Developer for many years now.
+          My name is Max Baumann and I am a Software & Web Developer for many years now.
           If you are interested in some of the projects I have worked on
           <a href="#projects">scroll down</a> or visit my
           <a href="https://www.github.com/fosefx" target="__blank">Github</a>.
-          Obviously you will not find everything I'm working on there because I
+          You will not find everything I'm working on there because I
           like to tinker around with all kinds of technology (systems, mobile,
           DevOps, you name it). Currently I study computer science in Aachen, Germany.
-          I love <b>Open Source</b> and have
-          contributed to numerous projects. I'm sure you and me will get along
-          fine, so hit me up on my socials above 🙃
+          I love <b>Open Source</b> and have contributed to numerous projects, including
+          <a href="https://github.com/rust-lang/rust/commits?author=FoseFx" target="__blank">rust</a>,
+          <a href="https://github.com/probot/probot/commits?author=FoseFx" target="__blank">probot</a>&nbsp;
+          and other utensils you might have used. I'm sure you and me will get along fine,
+          so hit me up on my socials above 🙃
         </p>
       </div>
     </div>
