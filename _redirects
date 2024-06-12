@@ -25,8 +25,8 @@ g/maps https://maps.google.com 301
 /r/o https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/home?$ctx=design=ca2;header=max;lang=de 301
 /r/moo https://moodle.rwth-aachen.de/my/ 301
 /r/üpo https://www.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaboupdmc 301
-/r/spo https://www.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaghxqkg 301
-/r/po https://www.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaghxqkg 301
+/r/spob https://www.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaghxqkg 301
+/r/spo https://www.rwth-aachen.de/global/show_document.asp?id=aaaaaaaacbsmfet 301
 /r/idm https://idm.rwth-aachen.de/selfservice/PersonalData?1 301
 /r/mail https://mail.rwth-aachen.de 301
 /r/sc https://sc.informatik.rwth-aachen.de/de/ 301
@@ -36,6 +36,8 @@ g/maps https://maps.google.com 301
 /r/cs https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/wbstpcs.chooseCsStudy?$ctx=design=ca2;header=max;lang=de 301
 /r/semester https://www.rwth-aachen.de/cms/root/studium/Im-Studium/~egv/Semestertermine/ 301
 
-r/wf https://git.rwth-aachen.de/renewable-energy/windfarm-planning-app 301
+r/wpa https://git.rwth-aachen.de/renewable-energy/windfarm-planning-app 301
 /r/mb https://git.rwth-aachen.de/montibelle 301
 /r/mbcore https://git.rwth-aachen.de/montibelle/core 301
+
+r/academica https://www.studierendenwerk-aachen.de/de/Gastronomie/mensa-academica-wochenplan.html 301
