@@ -24,7 +24,7 @@ export default class Index extends Vue {
         {
           name: 'description',
           content:
-            'My name is Max Baumann, I am a Web Developer by heart for many years now and' +
+            'My name is Max Baumann, I am a Software Engineer by heart for many years now and ' +
             'I like to tinker with all kinds of technology.',
         },
       ],
